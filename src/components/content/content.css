@@ -1,0 +1,80 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+.content .heading{
+    font-size: 24px;
+    
+    margin-top: 20px;
+    font-weight: 700;
+}
+.content .subHeading{
+    font-size: 14px;
+    
+    margin-top: 3px;
+    font-weight: 500;
+}
+.content .betaHeading{
+    font-size: 14px;
+    
+    margin-top: 10px;
+    border-left: 4px solid #d2f4d3;
+    padding-left: 5px;
+}
+.selector h1{
+    font-size: 20px;
+    padding: 20px;
+    opacity: 0.7;
+}
+.selector{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.multiSelect select {
+    padding: 8px 15px;
+    border-radius: 5px;
+    
+    background-color: rgb(210, 210, 210);
+    
+}
+.multi select{
+    padding: 8px 15px;
+    border-radius: 5px;
+    
+    background-color: rgb(210, 210, 210);
+}
+.multi{
+    padding: 10px;
+    margin-left: 10px;
+}
+select, option{
+    outline: none;
+    border: none;
+    background: none;
+}
+option{
+    background-color: #fff;
+    padding: 10px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    border: 1px solid #dcd9d9;
+    width: 80%;
+    border-radius: 5px;
+
+
+}
+.icon{
+    padding: 10px;
+}
+.search input{   
+    padding: 10px 20px;
+    display: block;
+    width: 600px;
+    
+}
